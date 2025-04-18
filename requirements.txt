@@ -1,0 +1,8 @@
+# requirements.txt
+
+scapy           # Per la manipolazione dei pacchetti di rete
+requests        # Per le richieste HTTP, usato nei moduli di phishing e altre attività
+beautifulsoup4  # Per l'analisi del contenuto HTML (per il phishing)
+colorama        # Per colorare i messaggi di output nel terminale (opzionale)
+cryptography    # Per il cracking delle password e per la crittografia
+pyautogui       # Per interazioni con l'interfaccia grafica (es. per attacchi automatizzati)
