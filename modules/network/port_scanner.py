@@ -1,3 +1,4 @@
+# import scan_ports  # Removed as it cannot be resolved
 import socket
 from concurrent.futures import ThreadPoolExecutor
 

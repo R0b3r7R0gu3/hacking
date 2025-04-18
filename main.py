@@ -61,7 +61,8 @@ def access_remoto():
     os.system("powershell access_remoto.ps1")
     print("Avvio Accesso Remoto...")
     try:
-        # Lancia il file PowerShell per l'accesso remoto
+        from modules.remote_access.access_remoto import start_remote_access
+        start_remote_access()
         subprocess.run(["powershell", "-ExecutionPolicy", "ByPass", "-File", "modules/access_remoto.ps1"])
     except Exception as e:
         print(f"Errore nell'esecuzione dell'accesso remoto: {e}")
